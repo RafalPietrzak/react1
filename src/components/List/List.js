@@ -49,6 +49,7 @@ class List extends React.Component {
           <Creator 
             text={settings.columnCreatorText} 
             action={title => this.addColumn(title)}
+            cancel = {settings.columnCreatorTextCancel}
           />
         </div>
         <div className={styles.description}>

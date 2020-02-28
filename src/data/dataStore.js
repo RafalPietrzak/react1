@@ -1,10 +1,12 @@
 export const settings = {
   columnCreatorText: 'Add new column',
   cardCreatorText: 'Add new card',
+  columnCreatorTextCancel: 'Do you really don\'t want add column?',
   creator: {
     buttonOK: 'OK',
     buttonCancel: 'Cancel',
     defaultText: 'Add new item',
+    messageCancel: 'Do you really don\'t want add card?',
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',

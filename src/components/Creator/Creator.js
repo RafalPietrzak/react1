@@ -6,10 +6,12 @@ import PropTypes from 'prop-types';
 class Creator extends React.Component {
   static propTypes = {
     text: PropTypes.string,
+    cancel: PropTypes.string
   }
 
   static defaultProps = {
     text: 'Add new item',
+    cancel: 'Do you really want to cancel?'
   }
 
   state = {
@@ -36,10 +38,12 @@ class Creator extends React.Component {
   }
 
   handleCancel = () => {
-    this.setState({
-      value: '',
-      visibleButtons: false
-    });
+    if(window.confirm(this.props.cancel)){
+      this.setState({
+        value: '',
+        visibleButtons: false
+      });
+    }
   }
 
   render() {
