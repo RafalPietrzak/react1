@@ -9,7 +9,7 @@ class Card extends React.Component {
   };
   static defaultProps = {
     title: 'Card name',
-  };  
+  };
   render() {
     return (
       <section className={styles.component}>
@@ -17,7 +17,7 @@ class Card extends React.Component {
           {this.props.title}
         </h3>
       </section>
-    )
+    );
   }
 }
 
