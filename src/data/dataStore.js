@@ -12,13 +12,45 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  header: {
+    icon:'cat',
+  },
 };
-
+export const faq = {
+  title: 'FAQ',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  content: [
+    {
+      key: 0,
+      question: 'Is FAQ a list?',
+      content: 'A FAQ is a list of frequently asked questions (FAQs) and answers on a particular topic (also known as Questions and Answers [Q&A] or Frequently Answered Questions).',
+    },
+    {
+      key: 1,
+      question: 'Is the format often used in articles?',
+      content: 'The format is often used in articles, websites, email lists, and online forums where common questions tend to recur, for example through posts or queries by new users related to common knowledge gaps.',
+    },
+    {
+      key: 2,
+      question: 'Is the purpose of an FAQ generally to provide information?',
+      content: 'The purpose of an FAQ is generally to provide information on frequent questions or concerns; however, the format is a useful means of organizing information, and text consisting of questions and their answers may thus be called an FAQ regardless of whether the questions are actually frequently asked.',
+    },
+    {
+      key: 3,
+      question: 'Is provide information?',
+      content: 'The purpose of an FAQ is generally to provide information on frequent questions or concerns; however, the format is a useful means of organizing information, and text consisting of questions and their answers may thus be called an FAQ regardless of whether the questions are actually frequently asked.',
+    },
+  ],
+};
+export const info = {
+  title: 'Info',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  content: 'It is info about this site',
+};
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
 };
-
 export const listData = {
   title: 'Things to do <sup>soon!</sup>',
   description: 'Interesting things I want to check out!',
@@ -146,6 +178,10 @@ const initialStoreData = {
   lists: [...lists],
   columns: [...columns],
   cards: [...cards],
+  faq: {...faq},
+  info: {...info},
 };
 
 export default initialStoreData;
+
+
