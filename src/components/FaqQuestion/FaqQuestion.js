@@ -17,7 +17,7 @@ const FaqQuestion = (props) => {
 };
 FaqQuestion.propTypes = {
   question: PropTypes.string,
-  content: PropTypes.array,
+  content: PropTypes.string,
 };
 
 export default FaqQuestion;

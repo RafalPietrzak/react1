@@ -9,6 +9,7 @@ export const settings = {
   search: {
     defaultText: 'Search...',
     icon: 'search',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
@@ -110,6 +111,24 @@ const lists = [
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  }, 
+  {
+    id: 'list-2',
+    title: 'Things I like ',
+    description: 'Things I want to do soon!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Things I want ',
+    description: 'Interesting things I want to check out!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-4',
+    title: 'Things I can',
+    description: 'Interesting things I want to check out!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
 ];
 
@@ -135,6 +154,24 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-3',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-6',
+    listId: 'list-3',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-7',
+    listId: 'list-4',
     title: 'Strange column',
     icon: 'question',
   },
@@ -169,7 +206,37 @@ const cards = [
   {
     id: 'card-6',
     columnId: 'column-3',
-    title: 'Skyrim',
+    title: 'Bud Jamison',
+  },
+  {
+    id: 'card-7',
+    columnId: 'column-5',
+    title: 'Harold Lloyd',
+  },
+  {
+    id: 'card-8',
+    columnId: 'column-5',
+    title: 'James Parrott',
+  },
+  {
+    id: 'card-9',
+    columnId: 'column-6',
+    title: 'Why Pick on Me',
+  },
+  {
+    id: 'card-10',
+    columnId: 'column-6',
+    title: 'Out of the Inkwell',
+  },
+  {
+    id: 'card-11',
+    columnId: 'column-7',
+    title: 'The House of Mirth',
+  },
+  {
+    id: 'card-12',
+    columnId: 'column-7',
+    title: 'The Ghost of Slumber Mountain',
   },
 ];
 
