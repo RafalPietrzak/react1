@@ -19,6 +19,7 @@ class SearchResults extends React.Component {
     title: 'Search for: ',
     icon: settings.defaultColumnIcon,
   };
+  
   render() {
     const {title, cards, searchString} = this.props;
     return (

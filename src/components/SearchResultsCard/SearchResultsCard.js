@@ -12,6 +12,7 @@ class SearchResultsCard extends React.Component {
   static defaultProps = {
     title: 'Card name',
   };
+  
   render() {
     const {title, listTitle, columnTitle} = this.props;
     return (
