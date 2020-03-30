@@ -20,7 +20,7 @@ class Header extends React.Component {
               <NavLink exact to='/info' activeClassName='active'>Info</NavLink>
               <NavLink exect to='/faq' activeClassName='active'>FAQ</NavLink>
             </nav>
-            <Search/>
+            <Search />
           </div>
         </Container>
       </header>
